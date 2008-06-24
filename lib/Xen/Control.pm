@@ -18,7 +18,7 @@ This is a wrapper module interface to Xen `xm` command.
 use warnings;
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use Carp::Clan 'croak';
 use Xen::Domain;
@@ -288,6 +288,10 @@ sub hibernated_domains {
 
 
 __END__
+
+=head1 TODO
+
+Try IPC::System::Simple instead of ``.
 
 =head1 BUGS
 

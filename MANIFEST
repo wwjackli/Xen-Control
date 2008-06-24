@@ -13,3 +13,4 @@ t/dumps/01_xm-ls.txt
 t/dumps/01_xm-ls_2.txt
 t/pod-coverage.t
 t/pod.t
+SIGNATURE    Added here by Module::Build

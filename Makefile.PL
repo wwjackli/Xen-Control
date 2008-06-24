@@ -16,7 +16,7 @@ WriteMakefile
                          },
           'INSTALLDIRS' => 'site',
           'EXE_FILES' => [
-                           'xmc'
+                           'script/xmc'
                          ],
           'PL_FILES' => {}
         )
