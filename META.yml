@@ -1,6 +1,6 @@
 ---
 name: Xen-Control
-version: 0.02
+version: 0.03
 author:
   - 'Jozef Kutej <jkutej@cpan.org>'
 abstract: control and fetch information about xen domains
@@ -20,7 +20,7 @@ build_requires:
 provides:
   Xen::Control:
     file: lib/Xen/Control.pm
-    version: 0.02
+    version: 0.03
   Xen::Domain:
     file: lib/Xen/Domain.pm
     version: 0.01
